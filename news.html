@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="slider_menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Niconne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slider_menu.css">
+</head>
+
+<body>
+    <header>
+        <a class="to_main" href="index.html">
+            <div class="logo"> <span class="cafe"> CAFE</span> <span class="rose">ROSE </span></div>
+        </a>
+        <div class="link">
+            <ul>
+                <!-- <li> <a href="">ABOUT US</a> </li> -->
+                <li> <a href="news.html" >NEWS</a> </li>
+                <li><a href="menu.html" >MENU</a> </li>
+                <li><a href="#make_order">MAKE AN ORDER</a> </li>
+                <li><a href="contacts.html" >CONTACTS</a> </li>
+            </ul>
+        </div>
+        <!-- Выпадающее меню -->
+        <div class="dropdown">
+            <button class="dropbtn"> <p></p><p></p><p></p>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <!-- <a href="">ABOUT US</a> -->
+                <a href="news.html" target="_blanck">NEWS</a>
+                <a href="menu.html" target="_blanck">MENU</a>
+                <a href="#make_order">MAKE AN ORDER</a>
+                <a href="contacts.html" target="_blanck">CONTACTS</a>
+            </div>
+        </div>
+    </header>
+    <div class="marg"></div>
+    <main class="news">
+        <div class="news_article">
+            <!-- Первая статья -->
+            <div class="second_text second_text_news">OUR NEWS</div>
+            <div id="idishka" class="line news_line"><img src="images/line.png" alt=""></div>
+            <div class="first_article">
+                <div class="we_open news_name">Who is the Caesar salad <br> named after?</div>
+                <div class="img_ceasar"></div>
+                <div class="time text_of_image"> Caesar salad has nothing to do with Julius Caesar.
+                    It is named after Caesar Cardini, an American chef of Italian descent,
+                    who invented the recipe. According to legend, Cardini made a salad from
+                    what was left in the kitchen of his restaurant when, during the
+                    celebration of US Independence Day, there was nothing left from the menu,
+                    and customers demanded food. <br>
+                    <p>Making a Caesar salad is also easy. Wash lettuce leaves, dry and tear into small pieces.
+                        Add croutons, pour dressing and mix. Sprinkle with cheese. Stir once more and serve immediately.
+                        If desired, you can decorate the dish with halved cherry tomatoes and half a boiled egg.</p>
+                </div>
+            </div>
+            <!-- Вторая статья!  -->
+            <div id="idishka2" class="line news_line"><img src="images/line.png" alt=""></div>
+            <div class="first_article">
+                <div class="we_open news_name">Appearance of summer terraces <br> no longer needs to be coordinated
+                </div>
+                <div class="img_ceasar terraces"></div>
+                <div class="time text_of_image"> Since the autumn of 2016, a document has been in force,
+                    according to which it was necessary to coordinate the appearance of both
+                    non-stationary catering facilities and the so-called remote summer areas.
+                    Changes in this activity happened in favor of restaurateurs.
+                    The Prosecutor General's Office considered that such practice is illegal. <br>
+                    <p>Belarusian legislation does not stipulate the fact that business entities
+                        are obliged to coordinate design projects of how the summer terrace will
+                        look like in the executive authorities.</p>
+                </div>
+            </div>
+            <!-- Третья статья!  -->
+            <div id="idishka3" class="line news_line"><img src="images/line.png" alt=""></div>
+            <div class="first_article">
+                <div class="we_open news_name">How can I order pastries for Easter?
+                </div>
+                <div class="img_ceasar easter"></div>
+                <div class="time text_of_image"> Cool bakeries and confectioneries have instilled in Minsk
+                    residents a delicious tradition of pre-ordering Easter pastries.
+                    In Rosa Cafe, you can order products for every taste, from standard
+                    Easter cakes to fragrant panettones, which are prepared for at least 48 hours. <br>
+                    <p>This year, the cafe offers two options: Easter cakes weighing 1.2 kg and 0.7 kg.
+                        The institution emphasizes that they are prepared exclusively from
+                        natural ingredients: tender dough with the addition of candied fruit
+                        and raisins. Decorated with white and black Belgian chocolate.
+                        Large Easter cakes are decorated with almonds, hazelnuts, cashews
+                        and walnuts, as well as a scattering of dried fruits (figs, cherries, prunes and dates).</p>
+                </div>
+                <div class="call_us make_easter">
+                    <a href="#make_order">make an order</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ссылки на статьи. Первая ссылка -->
+        <div class="link_article">
+            <div class="link_article1 ">
+                <a href="#idishka" class="first_link">
+                    <img src="images/news_ceasar.jpg">
+                    <p class="short_content">
+                        Who is the Caesar salad named after?
+                    </p>
+                    <footer class="short_footer">
+                        Source: Wikipedia / Caesar (salad)
+                    </footer>
+                </a>
+            </div>
+            <!-- Ссылки на статьи. Вторая ссылка -->
+            <div class="link_article1 terraces_link">
+                <a href="#idishka2" class="first_link">
+                    <img src="images/terraces.jpg">
+                    <p class="short_content">
+                        Appearance of summer terraces no longer needs to be coordinated
+                    </p>
+                    <footer class="short_footer">
+                        Source: Relax.by
+                    </footer>
+                </a>
+            </div>
+            <!-- Ссылки на статьи. Третья ссылка -->
+            <div class="link_article1 easter_link">
+                <a href="#idishka3" class="first_link">
+                    <img src="images/easter.jpg">
+                    <p class="short_content">
+                        How can I order pastries for Easter?
+                    </p>
+                    <footer class="short_footer">
+                        Source: Mail.ru
+                    </footer>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Футэр сайта -->
+    <footer class="footer footer_news">
+        <div class="last">
+            <div class="navigation">
+                <p class="last_p">NAVIGATION</p>
+                <a href="#">Home</a>
+                <a href="">Menu</a>
+                <a href="">Make an order</a>
+                <a href="news.html">News</a>
+                <a href="">Contacts</a>
+            </div>
+            <div class="navigation">
+                <p class="last_p">FOR MEMBERS</p>
+                <a href="">Forum</a>
+                <a href="">Events</a>
+                <a href="">Comments</a>
+                <a href="">Prices</a>
+            </div>
+            <div class="follow_us">
+                <p class="last_p">FOLLOW US</p>
+                <a class="psev1" href=""> Facebook</a>
+                <a class="psev2" href="">Twitter</a>
+                <a class="psev3" href="">RSS</a>
+            </div>
+            <div class="our_location">
+                <p class="last_p">OUR LOCATION</p>
+                <a class="psev4" href="">4445 Mormoa Road 87GR </a>
+                <a class="psev5" href="">800-8008-8008</a>
+                <a class="psev6" href="">in@ding.org</a>
+            </div>
+        </div>
+        <div class="triangle_2">
+            <span class="last_kafe">KAFE</span> <span class="last_rose">ROSA</span> <span class="bord"> &copy;2022
+            </span><a href="">Loukyanova</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

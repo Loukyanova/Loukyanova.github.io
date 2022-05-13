@@ -1,0 +1,233 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.bk{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.453);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.welcome_menu{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/fon-menu.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+    /* opacity: 60%;  на загрузку сайта*/
+    background-attachment: fixed;
+    display: grid;
+}
+.cafe_rose_menu {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2%;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .history_section_menu{
+    background-image: url(images/spice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.text_menu_section{
+    text-align:  center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 90%;
+    /* height: 80vh; */
+    margin: 5%;
+}
+
+.menu_text{
+    margin: 3% auto;
+    width: 90%;
+    height: auto;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Merienda', cursive;
+    line-height: 150%;
+}
+.call_us2{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.salat_section{
+    background-image: url(images/news_ceasar.jpg);
+    /* background-position: center center; */
+}
+.salat_text{
+    color: rgba(0, 0, 0, 0.974);
+    margin-bottom: 3%;
+}
+.call_us3 a{
+    color: rgba(0, 0, 0, 0.755);
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
+}
+.meat_section{
+    background-image: url(images/meat.jpg);
+}
+.bk_meat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.dessert_section{
+    background-image: url(images/dessert4.jpg);
+}
+.dessert_open{
+    color: rgba(0, 0, 0, 0.741);
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Merienda', cursive;
+    margin-bottom: 2%;
+}
+.drink_section{
+    background-image: url(images/slide1.jpg);
+}
+/* Промежуток */
+
+.interval_section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+     flex-direction: column;
+     width: 100%;
+    height: 40vh;
+    background-color: rgba(255, 255, 255, 0.656);
+ }
+.container_slider_css{
+    width: 100%;
+    height: 90%;
+    margin:50px auto;
+    overflow:hidden;
+    position:relative
+}
+.photo_slider_css{
+    position:absolute;
+    left: 0;
+    animation:round 16s infinite;
+    opacity:0;
+    width:100%
+}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media screen and (max-width: 1900px) and (min-width: 1210px){
+    .cafe_rose_menu {
+    font-size: 6em;
+    }
+    .menu_text {
+        font-size: 3em;
+    }
+    .call_us3 a {
+        font-size: 2.5em;
+    }
+    .dessert_open h2{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 783px){
+    .menu_text {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 591px){
+    .menu_text {
+        font-size: 1.3em;
+    }
+    .history_section_menu {
+        height: auto;
+    }
+}
+@media screen and (max-width: 591px){
+    .menu_text {
+        font-size: 1.3em;
+    }
+    .history_section_menu {
+        height: auto;
+    }
+}
+@media screen and (max-width: 578px){
+    div.link ul li a {
+        font-size: 0.7em;
+        margin-right: 1%;
+    }
+    .dropdown {
+        display: block;
+      }
+      .link{
+        visibility: hidden;
+      }
+}
+@media screen and (max-width: 512px){
+    .menu_text {
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 434px){
+    .menu_text {
+        font-size: 1em;
+    }
+    .text_menu_section{
+        width: 99%;
+    }
+    .line_menu{
+        display: inline-block;
+        text-align: center;
+    }
+    .line_menu img{
+        width: 50%;
+    }
+}
+
+
+
